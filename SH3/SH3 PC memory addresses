@@ -1,0 +1,80 @@
+sh3.exe+16330 (00416330) float - Camera projection
+sh3.exe+3A287 (0043A287) byte - Heather model becomes invisible (change to any value)
+sh3.exe+594DE (004594DE) float - Location textures horizontal shift 
+sh3.exe+A0E18 (004A0E18) float - Camera position horizontal shift?
+sh3.exe+A0E1F (004A0E1F) byte - Camera tracking disabling (set to 0)
+sh3.exe+A799D (004A799D) float - Heather model textures horizontal shift
+sh3.exe+2B09BC (006B09BC) float - Camera projection / draw distance combined?
+sh3.exe+2B293C (006B293C) float - Cover-up fog distance
+sh3.exe+2B2954 (006B2954) float - Location color Red
+sh3.exe+2B2954 (006B2958) float - Location color Green
+sh3.exe+2B2954 (006B295C) float - Location color Blue
+sh3.exe+2B76B0 (006B76B0) float - Flashlight geometry adjustment
+sh3.exe+2B76D4 (006B76D4) float - Flashlight geometry adjustment
+sh3.exe+2B76F0 (006B76F0) float - Flashlight geometry adjustment
+sh3.exe+2B76F4 (006B76F4) float - Flashlight geometry adjustment
+sh3.exe+2B7724 (006B7724) float - Flashlight geometry adjustment
+sh3.exe+2B7734 (006B7734) float - Flashlight geometry adjustment
+sh3.exe+2B81F8 (006B81F8) float - Heather model depth size
+sh3.exe+2B820C (006B820C) float - Heather model horiztonal size
+sh3.exe+2B8220 (006B8220) float - Heather model vertical size
+sh3.exe+2B8310 (006B8310) byte - Fog disabling (set to 0)
+sh3.exe+2C9980 (006C9980) float - Heather model poly stretch vertical
+sh3.exe+2C9980 (006C9994) float - Heather model poly stretch horiztonal 
+sh3.exe+2C9980 (006C99A8) float - Heather model poly stretch depth 
+sh3.exe+32C780 (0072C780) 4 bytes - Window size width
+sh3.exe+32C784 (0072C784) 4 bytes - Window size height
+sh3.exe+32C81A (0072C81A) byte - In-game speed
+sh3.exe+32D2C0 (0072D2C0) 4 byte - Current room index
+sh3.exe+342AB4 (00742AB4) float - Camera projection horizontal
+sh3.exe+342AB8 (00742AB8) float - Camera projection vertical
+sh3.exe+343AF8 (00743AF8) float - Heather model color Red
+sh3.exe+343AF8 (00743AFC) float - Heather model color Green
+sh3.exe+343AF8 (00743B00) float - Heather model color Blue
+sh3.exe+343B08 (00743B08) float - Location lightning color/intensity Red
+sh3.exe+343B0C (00743B0C) float - Location lightning color/intensity Green
+sh3.exe+343B10 (00743B10) float - Location lightning color/intensity Blue
+sh3.exe+343B18 (00743B18) float - Location color/intensity Red
+sh3.exe+343B18 (00743B1C) float - Location color/intensity Green
+sh3.exe+343B18 (00743B20) float - Location color/intensity Blue
+sh3.exe+343B28 (00743B28) float - Location general color filter Red
+sh3.exe+343B28 (00743B2C) float - Location general color filter Green
+sh3.exe+343B28 (00743B30) float - Location general color filter Blue
+sh3.exe+343B4C (00743B4C) float - Cover-up fog intensity
+sh3.exe+343B54 (00743B54) float - Corners shadows intensity?
+sh3.exe+343BC8 (00743BC8) float - Screen horizontal ratio
+sh3.exe+343BCC (00743BCC) float - Screen verical ratio
+sh3.exe+343BD0 (00743BD0) float - Draw distance front
+sh3.exe+343BD4 (00743BD4) float - Draw distance back
+sh3.exe+42E5A4 (0082E5A4) float - Location position shift X
+sh3.exe+42E5C4 (0082E5C4) float - Location position shift Z
+sh3.exe+4984E0 (008984E0) float - Heather Z axis position
+sh3.exe+4984E8 (008984E8) float - Heather X axis position
+sh3.exe+498568 (00898568) float - Heather model horizontal stretch
+sh3.exe+49856C (0089856C) float - Heather model vertical stretch
+sh3.exe+498570 (00898570) float - Heather model depth stretch
+sh3.exe+4985F8 (008985F8) float - Heather acceleration value
+sh3.exe+4985FC (008985FC) float - Heather acceleration value
+sh3.exe+498650 (00898650) float - Amount of damage taken
+sh3.exe+7B3184 (00BB3184) float - Mouse pointer X position (when pointer is visible on screen)
+sh3.exe+7B3188 (00BB3188) float - Mouse pointer Y position (when pointer is visible on screen)
+sh3.exe+7CBFF8 (00BCBFF8) byte - Main menu selector
+sh3.exe+7CC178 (00BCC178) byte - Options menu selector
+sh3.exe+6CE6408 (070E6408) 4 bytes - Mouse pointer X position (constantly active)
+sh3.exe+6CE640C (070E640C) 4 bytes - Mouse pointer Y position (constantly active)
+sh3.exe+6CE66E8 (070E66E8) 2 bytes - Amount of items picked up
+sh3.exe+6CE66EA (070E66EA) 2 bytes - Kills by shooting
+sh3.exe+6CE66EC (070E66EC) 2 bytes - Kills by fighting
+sh3.exe+6CE66EE (070E66EE) 2 bytes - Kills by Sexy Beam
+sh3.exe+6CE66F4 (070E66F4) float - IGT
+sh3.exe+6CE6700 (070E6700) float - Amount of damage taken (stats screen)
+sh3.exe+6CE6724 (070E6724) byte - HP bar trigger
+sh3.exe+6D1A634 (0711A634) byte - Elevator shaking effect
+sh3.exe+6D1A708 (0711A708) float - Camera tilt
+sh3.exe+6D1A70C (0711A70C) float - Camera pan
+sh3.exe+6D1A710 (0711A710) float - Sceen rotation
+sh3.exe+6D2C26C (0712C26C) 4 byte - Current room index
+sh3.exe+6D2CA80 (0712CA80) binary - Weapons spawning 1
+sh3.exe+6D2CA81 (0712CA81) binary - Weapons spawning 2
+sh3.exe+6D2CAAC (0712CAAC) byte - Handgun ammo
+sh3.exe+6D2CAB2 (0712CAB2) byte - Health drinks amount
