@@ -62,6 +62,8 @@ sh3.exe+7CBFF8 (00BCBFF8) byte - Main menu selector
 sh3.exe+7CC178 (00BCC178) byte - Options menu selector
 sh3.exe+6CE6408 (070E6408) 4 bytes - Mouse pointer X position (constantly active)
 sh3.exe+6CE640C (070E640C) 4 bytes - Mouse pointer Y position (constantly active)
+sh3.exe+6CE66DE (070E66DE) byte — action level
+sh3.exe+6CE66DF (070E66DF) byte — riddle level
 sh3.exe+6CE66E8 (070E66E8) 2 bytes - Amount of items picked up
 sh3.exe+6CE66EA (070E66EA) 2 bytes - Kills by shooting
 sh3.exe+6CE66EC (070E66EC) 2 bytes - Kills by fighting
