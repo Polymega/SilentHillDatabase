@@ -1,0 +1,67 @@
+PCSX2 1.4.0
+
+202D4770 float - Fog parameter
+202D4774 float - Fog parameter
+202D4780 float - Fog parameter
+202D4784 float - Fog parameter
+202D6B38 float - Draw distance front
+202D6C30 float - Location coloring (red)
+202D6C34 float - Location coloring (green)
+202D6C38 float - Location coloring (blue)
+202D6C4C float - Blur parameter
+202D6C90 float - Flashlight light color (red)
+202D6C94 float - Flashlight light color (green)
+202D6C98 float - Flashlight light color (blue)
+202D6CC4 float - Flashlight light spread
+202D6EA4 byte - Noise effect switch
+202D6EB0 byte - Color overlay (red)
+202D6EB1 byte - Color overlay (green)
+202D6EB2 byte - Color overlay (blue)
+203FFDB0 float - James position X
+203FFDB8 float - James position Z
+203FFE3C float - James speed
+203FFEF4 float - James health points
+205BA3FC byte - Fog color (red)
+205BA3FD byte - Fog color (green)
+205BA3FE byte - Fog color (blue)
+205BA3FF byte - Fog brightness
+210F6C10 float - Projection
+210F6C14 float - FOV horizontal
+210F6C18 float - FOV vertical
+210F6DD0 byte - Camera tracking switch
+21101970 float - Cylinder Camera For Debug horizontal orbit
+21101974 float - Cylinder Camera For Debug roll
+21101978 float - Cylinder Camera For Debug zoom
+2110197C float - Cylinder Camera For Debug vertical orbit
+211019D0 4 bytes - Cylinder Camera For Debug / Free For Debug switch
+21101AF0 float - Camera Free For Debug X position
+21101AF4 float - Camera Free For Debug Y position
+21101AF8 float - Camera Free For Debug Z position
+21137C38 byte - Puzzle Hospital blood wall 1st number
+21137C39 byte - Puzzle Hospital blood wall 2nd number
+21137C3A byte - Puzzle Hospital blood wall 3rd number
+21137C3B byte - Puzzle Hospital blood wall 4th number
+21137C40 2 bytes - Puzzle Clock
+21137C42 byte - Hospital Carbon paper 2nd number pair
+21137C43 byte - Hospital Carbon paper 1st number pair
+21137C44 byte - Bugroom pad 1st number
+21137C45 byte - Bugroom pad 2nd number
+21137C46 byte - Bugroom pad 3rd number
+21137C64 4 bytes - Quest items spawning
+21137C68 4 bytes - Quest items spawning
+21235702 byte - Collisions switch
+212361E4 2 bytes - Stats Ending clear
+212361E8 2 bytes - Stats Unique items
+212361EA 2 bytes - Stats Saves
+212361EE 2 bytes - Stats Items
+212361F0 2 bytes - Stats Defeated enemy by shooting
+212361F2 2 bytes - Stats Defeated enemy by fighting
+212361F2 float - Stats Total Time (IGT)
+212361F8 float - Stats Walking distance
+212361FC float - Stats Running distance
+21236200 float - Stats Boat stage time
+21236204 float - Stats Boat max speed
+21236208 float - Stats Total damage
+21236254 byte - Action difficulty selector
+21236255 byte - Riddle difficulty selector
+21236269 byte - Minimap switch
