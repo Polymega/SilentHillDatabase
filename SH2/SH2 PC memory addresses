@@ -1,0 +1,172 @@
+For North American executable.
+
+sh2pc.exe+39B830 (0079B830) byte - Save function being active/inactive
+sh2pc.exe+48BEEC (0088BEEC) float - Title screen logo loop
+sh2pc.exe+490478 (00890478) float - Hospital roof cutscene trigger X
+sh2pc.exe+490480 (00890480) float - Hospital roof cutscene trigger Y
+sh2pc.exe+490484 (00890484) float - Hospital roof cutscene trigger Z
+sh2pc.exe+49FFC0 (0089FFC0) float - Location textures brightness preset
+sh2pc.exe+4BA49C (008BA49C) byte - James animation identifier
+sh2pc.exe+4F0341 (008F0341) byte - Flashlight light spread switch
+sh2pc.exe+532174 (00932174) byte - Main menu events index
+sh2pc.exe+532178 (00932178) byte - Gameplay events index (0-4 = loading process, 5 = map, 6 = inventory, 7 = options, 9 = save menu, 11 = score screen, 12 = coming soon screen, 13 = game over screen)
+sh2pc.exe+53268C (0093268C) float - Fade-in timer
+sh2pc.exe+532694 (00932694) 4 byte - Loading screen trigger
+sh2pc.exe+53C49C (0093C49C) byte - Title screen being active marker
+sh2pc.exe+5408B8 (009408B8) 4 bytes - Actions trigger (32 = map, 128 = escape, 1 = walk forward, 2 = walk backwards etc)
+sh2pc.exe+541358 (00941358) 4 bytes - Mouse pointer horizontal position
+sh2pc.exe+54135C (0094135C) 4 bytes - Mouse pointer vertical position
+sh2pc.exe+541710 (00941710) byte - Options High Res. Textures switch
+sh2pc.exe+541711 (00941711) byte - Options Resolution switch
+sh2pc.exe+541712 (00941712) byte - Options Shadows switch
+sh2pc.exe+541713 (00941713) byte - Options Fog switch
+sh2pc.exe+541714 (00941714) byte - Options Advanced Filters switch
+sh2pc.exe+541715 (00941715) byte - Options Lens Flare switch
+sh2pc.exe+541716 (00941716) byte - Options Software 3D Sound switch
+sh2pc.exe+5423BC (009423BC) byte - Cutscene letterbox trigger
+sh2pc.exe+54294C (0094294C) byte - Draw distance back
+sh2pc.exe+542958 (00942958) byte - Draw distance front
+sh2pc.exe+542A20 (00942A20) float - Floor + furniture brightness (red)?
+sh2pc.exe+542A24 (00942A24) float - Floor + furniture brightness (green)?
+sh2pc.exe+542A28 (00942A28) float - Floor + furniture brightness (blue)?
+sh2pc.exe+542A50 (00942A50) float - Location textures color (red)
+sh2pc.exe+542A54 (00942A54) float - Location textures color (green)
+sh2pc.exe+542A58 (00942A58) float - Location textures color (blue)
+sh2pc.exe+542A60 (00942A60) float - Location textures color (red)
+sh2pc.exe+542A64 (00942A64) float - Location textures color (green)
+sh2pc.exe+542A68 (00942A68) float - Location textures color (blue)
+sh2pc.exe+542A70 (00942A70) float - Location textures color (red)
+sh2pc.exe+542A74 (00942A74) float - Location textures color (green)
+sh2pc.exe+542A78 (00942A78) float - Location textures color (blue)
+sh2pc.exe+542A80 (00942A80) float - Light source intensity + color (red)?
+sh2pc.exe+542A84 (00942A84) float - Light source intensity + color (green)?
+sh2pc.exe+542A88 (00942A88) float - Light source intensity + color (blue)?
+sh2pc.exe+542AE4 (00942AE4) float - Flashlight light spread
+sh2pc.exe+542AEC (00942AEC) float - Flashlight distance
+sh2pc.exe+542B50 (00942B50) float - James model brightness
+sh2pc.exe+542C20 (00942C20) byte - Coverup fog color (red)
+sh2pc.exe+542C21 (00942C20) byte - Coverup fog color (green)
+sh2pc.exe+542C22 (00942C20) byte - Coverup fog color (blue)
+sh2pc.exe+542C30 (00942C30) float - Coverup fog back distance
+sh2pc.exe+542C34 (00942C34) float - Coverup fog front distance
+sh2pc.exe+542C50 (00942C50) float - Loading zone color (red)
+sh2pc.exe+542C51 (00942C51) float - Loading zone color (green)
+sh2pc.exe+542C52 (00942C52) float - Loading zone color (blue)
+sh2pc.exe+542CC0 (00942CC0) byte - Noise effect preset
+sh2pc.exe+542CC2 (00942CC2) byte - Noise effect grain setting?
+sh2pc.exe+542CC4 (00942CC4) byte - Noise effect switch
+sh2pc.exe+542CC5 (00942CC5) byte - Noise effect range
+sh2pc.exe+54D5B8 (0094D5B8) byte - Title screen color (red)
+sh2pc.exe+54D5B9 (0094D5B9) byte - Title screen color (green)
+sh2pc.exe+54D5BA (0094D5BA) byte - Title screen color (blue)
+sh2pc.exe+54D5F9 (0094D5F9) byte - Title screen elements horizontal position 
+sh2pc.exe+54D5FB (0094D5FB) byte - Title screen elements vertical position
+sh2pc.exe+54DFD4 (0094DFD4) float - James X coordinate in cutscenes
+sh2pc.exe+54DFD8 (0094DFD8) float - James Y coordinate in cutscenes
+sh2pc.exe+54DFDC (0094DFDC) float - James Z coordinate in cutscenes
+sh2pc.exe+563658 (00963658) byte - Options Blood color
+sh2pc.exe+632DD4 (00A32DD4) 4 byte - Title screen logo looping
+sh2pc.exe+63334A (00A3334A) byte - Game process speed
+sh2pc.exe+633351 (00A33351) byte - FPS cap
+sh2pc.exe+6333F8 (00A333F8) byte - Fog switch
+sh2pc.exe+6333FC (00A333FC) byte - Shadows switch
+sh2pc.exe+633404 (00A33404) byte - Advanced Filters switch 1
+sh2pc.exe+633408 (00A33408) byte - Advanced Filters switch 2
+sh2pc.exe+633468 (00A33468) byte - Bullet adjust switch
+sh2pc.exe+633478 (00A33478) byte - BGM Volume
+sh2pc.exe+63347C (00A3347C) byte - SE Volume
+sh2pc.exe+633480 (00A33480) - Screen resolutions
+sh2pc.exe+6C70B7 (00AC70B7) byte - Game process suspending?
+sh2pc.exe+6C7228 (00AC7228) byte - Room index
+sh2pc.exe+197F654 (01D7F654) float - Boat direction
+sh2pc.exe+197F660 (01D7F660) float - Boat speed
+sh2pc.exe+19835E4 (01D835E4) float - Prison elevator speed
+sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
+sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Fighting kills
+sh2pc.exe+19BBF94 (01DBBF94) float - IGT
+sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty 
+sh2pc.exe+19BBFF5 (01DBBFF5) byte - Riddle difficulty 
+sh2pc.exe+19BBFF7 (01DBBFF7) byte - Options Screen Position X 
+sh2pc.exe+19BBFF8 (01DBBFF8) byte - Options Screen Position Y
+sh2pc.exe+19BBFF9 (01DBBFF9) byte - Options Vibration
+sh2pc.exe+19BBFFC (01DBBFFC) byte - Options BGM Volume
+sh2pc.exe+19BBFFD (01DBBFFD) byte - Options SE Volume
+sh2pc.exe+19BBFFE (01DBBFFE) byte - Options Weapon Control
+sh2pc.exe+19BBFFF (01DBBFFF) byte - Options Blood color
+sh2pc.exe+19BC000 (01DBC000) byte - Options View Control
+sh2pc.exe+19BC002 (01DBC002) byte - Options Walk/Run switch
+sh2pc.exe+19BC004 (01DBC004) byte - Options Bullet adjust
+sh2pc.exe+19BC006 (01DBC006) byte - Options Laguage
+sh2pc.exe+19BC008 (01DBC008) byte - Options Control Type
+sh2pc.exe+19BC00A (01DBC00A) byte - Options Map zoom in/out
+sh2pc.exe+19BC00B (01DBC00B) byte - Options Noise effect switch
+sh2pc.exe+19BC00C (01DBC00C) byte - Flashlight switch
+sh2pc.exe+19BC016 (01DBC016) byte - Options Subtitles
+sh2pc.exe+1B5EEBC (01F5EEBC) - FOV
+sh2pc.exe+1B5F16B (01F5F16B) byte - Location textures rendering trigger
+sh2pc.exe+1B7A620 (01F7A620) float - Fog X direction
+sh2pc.exe+1B7A624 (01F7A624) float - Fog Y direction
+sh2pc.exe+1B7A628 (01F7A628) float - Fog Z direction
+sh2pc.exe+1B7A658 (01F7A658) float - Fog concentration
+sh2pc.exe+1B7A670 (01F7A670) float - Fog position
+sh2pc.exe+1B7A674 (01F7A674) float - Fog position
+sh2pc.exe+1B7A688 (01F7A688) float - Fog direction
+sh2pc.exe+1B7A68C (01F7A68C) float - Fog direction
+sh2pc.exe+1B7A69E (01F7A69E) 2 byte - Fog volume intensity
+sh2pc.exe+1B7A6A0 (01F7A6A0) byte - Fog direction
+sh2pc.exe+1B7A6AC (01F7A6AC) byte - Fog color (red)
+sh2pc.exe+1B7A6AD (01F7A6AD) byte - Fog color (green)
+sh2pc.exe+1B7A6AE (01F7A6AE) byte - Fog color (blue)
+sh2pc.exe+1B7A6AF (01F7A6AF) byte - Fog brightness
+sh2pc.exe+1B7A6B8 (01F7A6B8) 4 bytes - Fog coutdown to change direction
+sh2pc.exe+1B7A7C4 (01F7A7C4) byte - Cutscene index
+sh2pc.exe+1B7A7E8 (01F7A7E8) - Inventory items addresses
+sh2pc.exe+1B7A80C (01F7A80C) float  - Ampoule stamina refill timer 
+sh2pc.exe+1B7AE60 (01F7AE60) byte - Puzzle Wallet code 1st number
+sh2pc.exe+1B7AE61 (01F7AE61) byte - Puzzle Wallet code 2nd number
+sh2pc.exe+1B7AE62 (01F7AE62) byte - Puzzle Wallet code 3rd number
+sh2pc.exe+1B7AE63 (01F7AE63) byte - Puzzle Wallet code 4th number
+sh2pc.exe+1B7AE64 (01F7AE64) - Puzzle Suitcase
+sh2pc.exe+1B7AE68 (01F7AE68) byte - Puzzle Hospital blood wall 1st number
+sh2pc.exe+1B7AE69 (01F7AE69) byte - Puzzle Hospital blood wall 2nd number
+sh2pc.exe+1B7AE6A (01F7AE6A) byte - Puzzle Hospital blood wall 3rd number
+sh2pc.exe+1B7AE6B (01F7AE6B) byte - Puzzle Hospital blood wall 4th number
+sh2pc.exe+1B7AE70 (01F7AE70) 2 bytes - Puzzle Clock
+sh2pc.exe+1B7AE72 (01F7AE72) byte - Hospital Carbon paper 2nd number pair
+sh2pc.exe+1B7AE73 (01F7AE73) byte - Hospital Carbon paper 1st number pair
+sh2pc.exe+1B7AE74 (01F7AE74) byte - Bugroom pad 1st number
+sh2pc.exe+1B7AE75 (01F7AE75) byte - Bugroom pad 2nd number
+sh2pc.exe+1B7AE76 (01F7AE76) byte - Bugroom pad 3rd number
+sh2pc.exe+1B7AE78 (01F7AE78) 2 bytes - Puzzle Persecuted Man
+sh2pc.exe+1B7AE7C (01F7AE7C) - Puzzle Suitcase initial cylinders positions
+sh2pc.exe+1B7D490 (01F7D490) byte - Fade-in state index
+sh2pc.exe+1B7D500 (01F7D500) float - James model color (red)
+sh2pc.exe+1B7D504 (01F7D504) float - James model color (green)
+sh2pc.exe+1B7D508 (01F7D508) float - James model color (blue)
+sh2pc.exe+1B7DC2D (01F7DC2D) byte - James model becomes invisible
+sh2pc.exe+1B7DC2F (01F7DC2F) byte - James/Maria model becomes invisible
+sh2pc.exe+1B80FC0 (01F80FC0) float - Camera Projection
+sh2pc.exe+1B810F0 (01F810F0) float - Camera Free For Debug X position
+sh2pc.exe+1B810F4 (01F810F4) float - Camera Free For Debug Y position
+sh2pc.exe+1B810F8 (01F810F8) float - Camera Free For Debug Z position
+sh2pc.exe+1B811E0 (01F811E0) byte - Camera tracking switch
+sh2pc.exe+1B81210 (01F81210) 4 bytes - Prison elevator shake effect switch
+sh2pc.exe+1B812E0 (01F812E0) float - Camera tilt
+sh2pc.exe+1B812E4 (01F812E4) float - Camera pan
+sh2pc.exe+1B8DAE0 (01F8DAE0) float - Cylinder Camera For Debug horizontal orbit
+sh2pc.exe+1B8DAE4 (01F8DAE4) float - Cylinder Camera For Debug roll
+sh2pc.exe+1B8DAE8 (01F8DAE8) float - Cylinder Camera For Debug zoom
+sh2pc.exe+1B8DAEC (01F8DAEC) float - Cylinder Camera For Debug vertical orbit
+sh2pc.exe+1B8DB60 (01F8DB60) 4 bytes - Cylinder Camera For Debug / Free For Debug switch
+sh2pc.exe+1B96120 (01F96120) 4 bytes - Collisions switch
+sh2pc.exe+1BB101C (01FB101C) float - James Z position
+sh2pc.exe+1BB1024 (01FB1024) float - James X position
+sh2pc.exe+1BB1030 (01FB1030) float - James rotation
+sh2pc.exe+1BB10A8 (01FB10A8) float - James speed
+sh2pc.exe+1BB113C (01FB113C) float - James Health Points
+sh2pc.exe+1BB1238 (01FB1238) 2 bytes - James animation timer
+sh2pc.exe+1BB12E8 (01FB12E8) float - Maria X position
+sh2pc.exe+1BB12F0 (01FB12F0) float - Maria Z position
+sh2pc.exe+1BB2C14 (01FB2C14) float - RPT X position on hospital roof
+sh2pc.exe+1BB2C18 (01FB2C18) float - RPT Y position on hospital roof
+sh2pc.exe+1BB2C1C (01FB2C1C) float - RPT Z position on hospital roof
