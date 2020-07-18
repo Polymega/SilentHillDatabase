@@ -1,10 +1,14 @@
-For North American executable.
+For North American executable (v1.0).
 
+sh2pc.exe+2A793C (006A793C) float - Fog texture UV repeat
+sh2pc.exe+2C3254 (006C3254) float - Flashlight inner glow size
 sh2pc.exe+39B830 (0079B830) byte - Save function being active/inactive
 sh2pc.exe+48BEEC (0088BEEC) float - Title screen logo loop
 sh2pc.exe+490478 (00890478) float - Hospital roof cutscene trigger X
 sh2pc.exe+490480 (00890480) float - Hospital roof cutscene trigger Y
 sh2pc.exe+490484 (00890484) float - Hospital roof cutscene trigger Z
+sh2pc.exe+492AFC (00892AFC) float - Blood pool size
+sh2pc.exe+49FF82 (0089FF82) byte - Flashlight render toggle (the light touching/affecting the environment)
 sh2pc.exe+49FFC0 (0089FFC0) float - Location textures brightness preset
 sh2pc.exe+4BA49C (008BA49C) byte - James animation identifier
 sh2pc.exe+4F0341 (008F0341) byte - Flashlight light spread switch
@@ -64,14 +68,19 @@ sh2pc.exe+54D5FB (0094D5FB) byte - Title screen elements vertical position
 sh2pc.exe+54DFD4 (0094DFD4) float - James X coordinate in cutscenes
 sh2pc.exe+54DFD8 (0094DFD8) float - James Y coordinate in cutscenes
 sh2pc.exe+54DFDC (0094DFDC) float - James Z coordinate in cutscenes
+sh2pc.exe+556364 (00956364) float - Blood pool elevation 1
+sh2pc.exe+5563BC (009563BC) float - Blood pool elevation 2
+sh2pc.exe+556414 (00956414) float - Blood pool elevation 3
 sh2pc.exe+563658 (00963658) byte - Options Blood color
 sh2pc.exe+632DD4 (00A32DD4) 4 byte - Title screen logo looping
 sh2pc.exe+63334A (00A3334A) byte - Game process speed
 sh2pc.exe+633351 (00A33351) byte - FPS cap
-sh2pc.exe+6333F8 (00A333F8) byte - Fog switch
-sh2pc.exe+6333FC (00A333FC) byte - Shadows switch
-sh2pc.exe+633404 (00A33404) byte - Advanced Filters switch 1
-sh2pc.exe+633408 (00A33408) byte - Advanced Filters switch 2
+sh2pc.exe+6333A8 (00A333A8) byte - Low res texture toggle (from options menu, 0 = high res textures, 1 = low res textures)
+sh2pc.exe+6333F8 (00A333F8) byte - Fog toggle (from options menu)
+sh2pc.exe+6333FC (00A333FC) byte - Shadows toggle (from options menu)
+sh2pc.exe+633400 (00A33400) byte - Lens flare toggle (from options menu)
+sh2pc.exe+633404 (00A33404) byte - Advanced filters (motion blur) toggle (must be toggled with 00A33408)
+sh2pc.exe+633408 (00A33408) byte - Advanced filters (bloom/blur) toggle (must be toggled with 00A33404)
 sh2pc.exe+633468 (00A33468) byte - Bullet adjust switch
 sh2pc.exe+633478 (00A33478) byte - BGM Volume
 sh2pc.exe+63347C (00A3347C) byte - SE Volume
@@ -100,7 +109,7 @@ sh2pc.exe+19BC006 (01DBC006) byte - Options Laguage
 sh2pc.exe+19BC008 (01DBC008) byte - Options Control Type
 sh2pc.exe+19BC00A (01DBC00A) byte - Options Map zoom in/out
 sh2pc.exe+19BC00B (01DBC00B) byte - Options Noise effect switch
-sh2pc.exe+19BC00C (01DBC00C) byte - Flashlight switch
+sh2pc.exe+19BC00C (01DBC00C) byte - Current campaign being played (0 = Main campaign, 1 = side campaign)
 sh2pc.exe+19BC016 (01DBC016) byte - Options Subtitles
 sh2pc.exe+1B5EEBC (01F5EEBC) - FOV
 sh2pc.exe+1B5F16B (01F5F16B) byte - Location textures rendering trigger
@@ -111,7 +120,7 @@ sh2pc.exe+1B7A658 (01F7A658) float - Fog concentration
 sh2pc.exe+1B7A670 (01F7A670) float - Fog position
 sh2pc.exe+1B7A674 (01F7A674) float - Fog position
 sh2pc.exe+1B7A688 (01F7A688) float - Fog direction
-sh2pc.exe+1B7A68C (01F7A68C) float - Fog direction
+sh2pc.exe+1B7A68C (01F7A68C) float - Fog speed
 sh2pc.exe+1B7A69E (01F7A69E) 2 byte - Fog volume intensity
 sh2pc.exe+1B7A6A0 (01F7A6A0) byte - Fog direction
 sh2pc.exe+1B7A6AC (01F7A6AC) byte - Fog color (red)
@@ -138,6 +147,7 @@ sh2pc.exe+1B7AE74 (01F7AE74) byte - Bugroom pad 1st number
 sh2pc.exe+1B7AE75 (01F7AE75) byte - Bugroom pad 2nd number
 sh2pc.exe+1B7AE76 (01F7AE76) byte - Bugroom pad 3rd number
 sh2pc.exe+1B7AE78 (01F7AE78) 2 bytes - Puzzle Persecuted Man
+sh2pc.exe+1B7AE80 (01F7AE80) byte - Value changes to "2" whenever text appears or player temporarily loses control of James
 sh2pc.exe+1B7AE7C (01F7AE7C) - Puzzle Suitcase initial cylinders positions
 sh2pc.exe+1B7D490 (01F7D490) byte - Fade-in state index
 sh2pc.exe+1B7D500 (01F7D500) float - James model color (red)
@@ -161,6 +171,7 @@ sh2pc.exe+1B8DB60 (01F8DB60) 4 bytes - Cylinder Camera For Debug / Free For Debu
 sh2pc.exe+1B96120 (01F96120) 4 bytes - Collisions switch
 sh2pc.exe+1BB101C (01FB101C) float - James Z position
 sh2pc.exe+1BB1024 (01FB1024) float - James X position
+sh2pc.exe+1BB1020 (01FB1020) float - James Y position
 sh2pc.exe+1BB1030 (01FB1030) float - James rotation
 sh2pc.exe+1BB10A8 (01FB10A8) float - James speed
 sh2pc.exe+1BB113C (01FB113C) float - James Health Points
