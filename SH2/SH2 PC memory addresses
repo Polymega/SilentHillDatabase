@@ -109,7 +109,7 @@ sh2pc.exe+19BC006 (01DBC006) byte - Options Laguage
 sh2pc.exe+19BC008 (01DBC008) byte - Options Control Type
 sh2pc.exe+19BC00A (01DBC00A) byte - Options Map zoom in/out
 sh2pc.exe+19BC00B (01DBC00B) byte - Options Noise effect switch
-sh2pc.exe+19BC00C (01DBC00C) byte - Current campaign being played (0 = Main campaign, 1 = side campaign)
+sh2pc.exe+19BC00C (01DBC00C) byte - Current campaign being played (0 = main campaign, 1 = side campaign)
 sh2pc.exe+19BC016 (01DBC016) byte - Options Subtitles
 sh2pc.exe+1B5EEBC (01F5EEBC) - FOV
 sh2pc.exe+1B5F16B (01F5F16B) byte - Location textures rendering trigger
@@ -148,7 +148,10 @@ sh2pc.exe+1B7AE75 (01F7AE75) byte - Bugroom pad 2nd number
 sh2pc.exe+1B7AE76 (01F7AE76) byte - Bugroom pad 3rd number
 sh2pc.exe+1B7AE78 (01F7AE78) 2 bytes - Puzzle Persecuted Man
 sh2pc.exe+1B7AE80 (01F7AE80) byte - Value changes to "2" whenever text appears or player temporarily loses control of James
-sh2pc.exe+1B7AE7C (01F7AE7C) - Puzzle Suitcase initial cylinders positions
+sh2pc.exe+1B7AE7C (01F7AE7C) byte - Puzzle Suitcase cylinder position (1st letter)
+sh2pc.exe+1B7AE7C (01F7AE7D) byte - Puzzle Suitcase cylinder position (2nd letter)
+sh2pc.exe+1B7AE7C (01F7AE7E) byte - Puzzle Suitcase cylinder position (3rd letter)
+sh2pc.exe+1B7AE7C (01F7AE7F) byte - Puzzle Suitcase cylinder position (4th letter)
 sh2pc.exe+1B7D490 (01F7D490) byte - Fade-in state index
 sh2pc.exe+1B7D500 (01F7D500) float - James model color (red)
 sh2pc.exe+1B7D504 (01F7D504) float - James model color (green)
