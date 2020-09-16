@@ -11,6 +11,23 @@ sh2pc.exe+492AFC (00892AFC) float - Blood pool size
 sh2pc.exe+49FF82 (0089FF82) byte - Flashlight render toggle (the light touching/affecting the environment)
 sh2pc.exe+49FFC0 (0089FFC0) float - Location textures brightness preset
 sh2pc.exe+4BA49C (008BA49C) byte - James animation identifier
+sh2pc.exe+4CA438 (008CA438) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA43C (008CA43C) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA440 (008CA440) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA444 (008CA444) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA448 (008CA448) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA44C (008CA44C) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA450 (008CA450) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA454 (008CA454) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA458 (008CA458) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA45C (008CA45C) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA460 (008CA460) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA464 (008CA464) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA468 (008CA468) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA470 (008CA470) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA474 (008CA474) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA478 (008CA478) String[4] - Suitcase Photo Combination Letters
+sh2pc.exe+4CA480 (008CA480) String[4] - Suitcase Photo Combination Letters
 sh2pc.exe+4F0341 (008F0341) byte - Flashlight light spread switch
 sh2pc.exe+532174 (00932174) byte - Main menu events index
 sh2pc.exe+532178 (00932178) byte - Gameplay events index (0-4 = loading process, 5 = map, 6 = inventory, 7 = options, 9 = save menu, 11 = score screen, 12 = coming soon screen, 13 = game over screen)
