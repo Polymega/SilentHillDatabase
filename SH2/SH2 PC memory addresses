@@ -146,7 +146,9 @@ sh2pc.exe+1B7A6AE (01F7A6AE) byte - Fog color (blue)
 sh2pc.exe+1B7A6AF (01F7A6AF) byte - Fog brightness
 sh2pc.exe+1B7A6B8 (01F7A6B8) 4 bytes - Fog coutdown to change direction
 sh2pc.exe+1B7A7C4 (01F7A7C4) byte - Cutscene index
-sh2pc.exe+1B7A7E8 (01F7A7E8) - Inventory items addresses
+sh2pc.exe+1B7A7E8 (01F7A7E0) 4 bytes - Inventory items Part 1 (mostly involves weapons; set to 0xFFFFFFFF to place all items in inventory)
+sh2pc.exe+1B7A7E8 (01F7A7E4) 4 bytes - Inventory items Part 2 (mostly involves keys & early items; set to 0xFFFFFFFF to place all items in inventory)
+sh2pc.exe+1B7A7E8 (01F7A7E8) 4 bytes - Inventory items Part 3 (mostly involves later items & BFaW items; set to 0xFFFFFFFF to place all items in inventory)
 sh2pc.exe+1B7A80C (01F7A80C) float  - Ampoule stamina refill timer 
 sh2pc.exe+1B7AE60 (01F7AE60) byte - Puzzle Wallet code 1st number
 sh2pc.exe+1B7AE61 (01F7AE61) byte - Puzzle Wallet code 2nd number
