@@ -62,8 +62,8 @@ sh3.exe+7CBFF8 (00BCBFF8) byte - Main menu selector
 sh3.exe+7CC178 (00BCC178) byte - Options menu selector
 sh3.exe+6CE6408 (070E6408) 4 bytes - Mouse pointer X position (constantly active)
 sh3.exe+6CE640C (070E640C) 4 bytes - Mouse pointer Y position (constantly active)
-sh3.exe+6CE66DE (070E66DE) byte — action level
-sh3.exe+6CE66DF (070E66DF) byte — riddle level
+sh3.exe+6CE66DE (070E66DE) byte — Action level
+sh3.exe+6CE66DF (070E66DF) byte — Riddle level
 sh3.exe+6CE66E8 (070E66E8) 2 bytes - Amount of items picked up
 sh3.exe+6CE66EA (070E66EA) 2 bytes - Kills by shooting
 sh3.exe+6CE66EC (070E66EC) 2 bytes - Kills by fighting
@@ -75,6 +75,7 @@ sh3.exe+6D1A634 (0711A634) byte - Elevator shaking effect
 sh3.exe+6D1A708 (0711A708) float - Camera tilt
 sh3.exe+6D1A70C (0711A70C) float - Camera pan
 sh3.exe+6D1A710 (0711A710) float - Sceen rotation
+sh3.exe+6D2C168 (0712C168) float - Heather attack speed
 sh3.exe+6D2C26C (0712C26C) 4 byte - Current room index
 sh3.exe+6D2CA80 (0712CA80) binary - Weapons spawning 1
 sh3.exe+6D2CA81 (0712CA81) binary - Weapons spawning 2
