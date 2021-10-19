@@ -185,6 +185,7 @@ sh2pc.exe+1B7AE7C (01F7AE7C) byte - Puzzle Suitcase cylinder position (1st lette
 sh2pc.exe+1B7AE7C (01F7AE7D) byte - Puzzle Suitcase cylinder position (2nd letter)
 sh2pc.exe+1B7AE7C (01F7AE7E) byte - Puzzle Suitcase cylinder position (3rd letter)
 sh2pc.exe+1B7AE7C (01F7AE7F) byte - Puzzle Suitcase cylinder position (4th letter)
+sh2pc.exe+1BB8117 (01FB8117) byte - James/Maria dying (1 = dying animation, 2 = game over screen)
 sh2pc.exe+1B7D490 (01F7D490) byte - Fade-in state index
 sh2pc.exe+1B7D500 (01F7D500) float - James model color (red)
 sh2pc.exe+1B7D504 (01F7D504) float - James model color (green)
