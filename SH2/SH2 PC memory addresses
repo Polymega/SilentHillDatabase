@@ -130,7 +130,7 @@ sh2pc.exe+197F660 (01D7F660) float - Boat speed
 sh2pc.exe+19835E4 (01D835E4) float - Prison elevator speed
 sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
 sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Fighting kills
-sh2pc.exe+19BBF94 (01DBBF94) float - IGT
+sh2pc.exe+19BBF94 (01DBBF94) float - In-game Timer (IGT)
 sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
 sh2pc.exe+19BBF9C (01DBBF9c) float - Running distance
 sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty 
@@ -151,7 +151,7 @@ sh2pc.exe+19BC00A (01DBC00A) byte - Options Map zoom in/out
 sh2pc.exe+19BC00B (01DBC00B) byte - Options Noise effect switch
 sh2pc.exe+19BC00C (01DBC00C) byte - Current campaign being played (0 = main campaign, 1 = side campaign)
 sh2pc.exe+19BC016 (01DBC016) byte - Options Subtitles
-sh2pc.exe+1B5EEBC (01F5EEBC) - FOV
+sh2pc.exe+1B5EEBC (01F5EEBC) float - Horizontal camera stretching (example: playing in 16:9 set to 1.7778 as this is decimal form of 16/9)
 sh2pc.exe+1B5F16B (01F5F16B) byte - Location textures rendering trigger
 sh2pc.exe+1B7A620 (01F7A620) float - Fog X direction
 sh2pc.exe+1B7A624 (01F7A624) float - Fog Y direction
@@ -216,7 +216,7 @@ sh2pc.exe+1B7D504 (01F7D504) float - James model color (green)
 sh2pc.exe+1B7D508 (01F7D508) float - James model color (blue)
 sh2pc.exe+1B7DC2D (01F7DC2D) byte - James model becomes invisible
 sh2pc.exe+1B7DC2F (01F7DC2F) byte - James/Maria model becomes invisible
-sh2pc.exe+1B80FC0 (01F80FC0) float - Camera Projection
+sh2pc.exe+1B80FC0 (01F80FC0) float - Field of View (FOV)
 sh2pc.exe+1B810F0 (01F810F0) float - Camera Free For Debug X position
 sh2pc.exe+1B810F4 (01F810F4) float - Camera Free For Debug Y position
 sh2pc.exe+1B810F8 (01F810F8) float - Camera Free For Debug Z position
