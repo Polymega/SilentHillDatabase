@@ -244,9 +244,9 @@ RELEVANT ADDRESSES TOWARDS GAME RESULT STATS
 sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty (0 = Beginner, 1 = Easy, 2 = Normal, 3 = Hard)
 sh2pc.exe+19BBFF5 (01DBBFF5) byte - Riddle difficulty (0 = Easy, 1 = Normal, 2 = Hard, 3 = Extra)
 sh2pc.exe+19BBF85 (01DBBF85) byte - Number of endings earned in current playthrough???
-									                  This needs to be further researched for two things:
-									                  1. Does BFaW ending count towards this value? (I don't think it does)
-									                  2. Does this only count UNIQUE endings earned or ANY/ALL endings earned?
+                                    This needs to be further researched for two things:
+                                    1. Does BFaW ending count towards this value? (I don't think it does)
+                                    2. Does this only count UNIQUE endings earned or ANY/ALL endings earned?
 sh2pc.exe+19BBF8A (01DBBF8A) byte - Number of saves
 sh2pc.exe+19BBF94 (01DBBF94) float - In-game timer (IGT) ...aka total time in current playthrough
 sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
