@@ -251,8 +251,9 @@ sh2pc.exe+19BBF8A (01DBBF8A) byte - Number of saves
 sh2pc.exe+19BBF94 (01DBBF94) float - In-game timer (IGT) ...aka total time in current playthrough
 sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
 sh2pc.exe+19BBF9C (01DBBF9C) float - Running distance
-sh2pc.exe+19BBF8E (01DBBF8E) 2 bytes - Number of items collected
+sh2pc.exe+19BBF8E (01DBBF8E) 2 bytes - Number of items collected (not sure if it counts bonus secret items)
 sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
 sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Melee kills
+sh2pc.exe+19BBFA0 (01DBBFA0) float - Boat stage time
 sh2pc.exe+19BBFA0 (01DBBFA4) float - Boat max speed
 sh2pc.exe+19BBFA8 (01DBBFA8) float - Damage points taken
