@@ -3,7 +3,7 @@ For North American executable (v1.0).
 sh2pc.exe+29F33C (0069F33C) float - Max walk speed (it affects monsters too i guess)
 sh2pc.exe+2A793C (006A793C) float - Fog texture UV repeat
 sh2pc.exe+2C3254 (006C3254) float - Flashlight inner glow size
-sh2pc.exe+2EF494 (006ef494) float - Max running speed
+sh2pc.exe+2EF494 (006EF494) float - Max running speed
 sh2pc.exe+39B830 (0079B830) byte - Save function being active/inactive
 sh2pc.exe+48BEEC (0088BEEC) float - Title screen logo loop
 sh2pc.exe+490478 (00890478) float - Hospital roof cutscene trigger X
@@ -52,8 +52,8 @@ sh2pc.exe+532694 (00932694) 4 byte - Loading screen trigger
 sh2pc.exe+534208 (00934208) 4 bytes - save file header
 sh2pc.exe+534234 (00934234) byte[8092] - save data
 sh2pc.exe+53BFE0 (0093BFE0) uint[4] - Hash of save file
-sh2pc.exe+53C036 (0093c036) char[64] - Save folder name
-sh2pc.exe+53C076 (0093c076) char[64] - Current save file
+sh2pc.exe+53C036 (0093C036) char[64] - Save folder name
+sh2pc.exe+53C076 (0093C076) char[64] - Current save file
 sh2pc.exe+53C49C (0093C49C) byte - Title screen being active marker
 sh2pc.exe+5408B8 (009408B8) 4 bytes - Actions trigger (32 = map, 128 = escape, 1 = walk forward, 2 = walk backwards etc)
 sh2pc.exe+541358 (00941358) 4 bytes - Mouse pointer horizontal position
@@ -128,13 +128,6 @@ sh2pc.exe+6C7228 (00AC7228) byte - Room index
 sh2pc.exe+197F654 (01D7F654) float - Boat direction
 sh2pc.exe+197F660 (01D7F660) float - Boat speed
 sh2pc.exe+19835E4 (01D835E4) float - Prison elevator speed
-sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
-sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Fighting kills
-sh2pc.exe+19BBF94 (01DBBF94) float - In-game Timer (IGT)
-sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
-sh2pc.exe+19BBF9C (01DBBF9c) float - Running distance
-sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty 
-sh2pc.exe+19BBFF5 (01DBBFF5) byte - Riddle difficulty 
 sh2pc.exe+19BBFF7 (01DBBFF7) byte - Options Screen Position X 
 sh2pc.exe+19BBFF8 (01DBBFF8) byte - Options Screen Position Y
 sh2pc.exe+19BBFF9 (01DBBFF9) byte - Options Vibration
@@ -170,9 +163,9 @@ sh2pc.exe+1B7A6AF (01F7A6AF) byte - Fog brightness
 sh2pc.exe+1B7A6B8 (01F7A6B8) 4 bytes - Fog coutdown to change direction
 sh2pc.exe+1B7A7C4 (01F7A7C4) byte - Cutscene index
 sh2pc.exe+1B7A7E0 (01F7A7E0) uint[3] - Inventory items array
-                             [0] - (mostly involves weapons and some prologue mission items; set 0000FFFF to place all weapons in inventory; set FFFF0000 to place all prologue mission items; set FFFFFFFF to place both of them)
-                             [1] - (mostly involves keys & mission objects; set 0000FFFF to place all keys in inventory; set FFFF0000 to place all mission objects in inventory; set FFFFFFFF to place both of them)
-                             [2] - mostly involves later items & BFaW items; set 0000FFFF to place all later items in inventory (but be careful it includes rebirth ending items as well!!!); set FFFF0000 to place all BFaW items in inventory; set FFFFFFFF to place both of them
+                             [0] - mostly involves weapons and some prologue mission items; set 0000FFFF to place all weapons in inventory; set FFFF0000 to place all prologue mission items; set FFFFFFFF to place both of them
+                             [1] - mostly involves keys & mission objects; set 0000FFFF to place all keys in inventory; set FFFF0000 to place all mission objects in inventory; set FFFFFFFF to place both of them
+                             [2] - mostly involves later items & BFaW items; set 0000FFFF to place all later items in inventory (but be careful it includes rebirth ending items as well!); set FFFF0000 to place all BFaW items in inventory; set FFFFFFFF to place both of them
 sh2pc.exe+1B7A7EC (01F7A7EC) short[13] - Item ammo array
                              [0] - Unused i guess
                              [1] - Health drink
@@ -243,3 +236,23 @@ sh2pc.exe+1BB2C14 (01FB2C14) float - RPT X position on hospital roof
 sh2pc.exe+1BB2C18 (01FB2C18) float - RPT Y position on hospital roof
 sh2pc.exe+1BB2C1C (01FB2C1C) float - RPT Z position on hospital roof
 sh2pc.exe+1BB7CE8 (01FB7CE8) 4 bytes - James animation events index
+
+=========================================================
+RELEVANT ADDRESSES TOWARDS GAME RESULT STATS
+(In order as they would appear on the Game Result sceen):
+
+sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty (0 = Beginner, 1 = Easy, 2 = Normal, 3 = Hard)
+sh2pc.exe+19BBFF5 (01DBBFF5) byte - Riddle difficulty (0 = Easy, 1 = Normal, 2 = Hard, 3 = Extra)
+sh2pc.exe+19BBF85 (01DBBF85) byte - Number of endings earned in current playthrough???
+									                  This needs to be further researched for two things:
+									                  1. Does BFaW ending count towards this value? (I don't think it does)
+									                  2. Does this only count UNIQUE endings earned or ANY/ALL endings earned?
+sh2pc.exe+19BBF8A (01DBBF8A) byte - Number of saves
+sh2pc.exe+19BBF94 (01DBBF94) float - In-game timer (IGT) ...aka total time in current playthrough
+sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
+sh2pc.exe+19BBF9C (01DBBF9C) float - Running distance
+sh2pc.exe+19BBF8E (01DBBF8E) 2 bytes - Number of items collected
+sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
+sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Melee kills
+sh2pc.exe+19BBFA0 (01DBBFA4) float - Boat max speed
+sh2pc.exe+19BBFA8 (01DBBFA8) float - Damage points taken
