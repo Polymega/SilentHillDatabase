@@ -5,6 +5,7 @@ sh2pc.exe+2A793C (006A793C) float - Fog texture UV repeat
 sh2pc.exe+2C3254 (006C3254) float - Flashlight inner glow size
 sh2pc.exe+2EF494 (006EF494) float - Max running speed
 sh2pc.exe+39B830 (0079B830) byte - Save function being active/inactive
+sh2pc.exe+3B2BD0 (007B2BD0) uint - Random number for managing RNG (this is important for the whole rng things (puzzles, save cryption etc) in game)
 sh2pc.exe+48BEEC (0088BEEC) float - Title screen logo loop
 sh2pc.exe+490478 (00890478) float - Hospital roof cutscene trigger X
 sh2pc.exe+490480 (00890480) float - Hospital roof cutscene trigger Y
@@ -181,6 +182,7 @@ sh2pc.exe+1B7A7EC (01F7A7EC) short[13] - Item ammo array
                              [11] - Revolver bullet
                              [12] - Hyper spray
 sh2pc.exe+1B7A80C (01F7A80C) float  - Ampoule stamina refill timer 
+sh2pc.exe+1B7AA10 (01F7AA10) uint - Set Briefcase Puzzle
 sh2pc.exe+1B7AE60 (01F7AE60) byte - Puzzle Wallet code 1st number
 sh2pc.exe+1B7AE61 (01F7AE61) byte - Puzzle Wallet code 2nd number
 sh2pc.exe+1B7AE62 (01F7AE62) byte - Puzzle Wallet code 3rd number
@@ -243,6 +245,7 @@ RELEVANT ADDRESSES TOWARDS GAME RESULT STATS
 
 sh2pc.exe+19BBFF4 (01DBBFF4) byte - Action difficulty (0 = Beginner, 1 = Easy, 2 = Normal, 3 = Hard)
 sh2pc.exe+19BBFF5 (01DBBFF5) byte - Riddle difficulty (0 = Easy, 1 = Normal, 2 = Hard, 3 = Extra)
+sh2pc.exe+19BBF84 (01DBBF84) byte - Number of endings earned after game ends
 sh2pc.exe+19BBF85 (01DBBF85) byte - Number of endings earned in current playthrough???
                                     This needs to be further researched for two things:
                                     1. Does BFaW ending count towards this value? (I don't think it does)
@@ -251,9 +254,12 @@ sh2pc.exe+19BBF8A (01DBBF8A) byte - Number of saves
 sh2pc.exe+19BBF94 (01DBBF94) float - In-game timer (IGT) ...aka total time in current playthrough
 sh2pc.exe+19BBF98 (01DBBF98) float - Walking distance
 sh2pc.exe+19BBF9C (01DBBF9C) float - Running distance
-sh2pc.exe+19BBF8E (01DBBF8E) 2 bytes - Number of items collected (not sure if it counts bonus secret items)
+sh2pc.exe+19BBF8E (01DBBF8E) 2 bytes - Number of items collected
+sh2pc.exe+19BBF88 (01DBBF88) byte - Number of secret items collected
 sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
 sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Melee kills
 sh2pc.exe+19BBFA0 (01DBBFA0) float - Boat stage time
 sh2pc.exe+19BBFA0 (01DBBFA4) float - Boat max speed
 sh2pc.exe+19BBFA8 (01DBBFA8) float - Damage points taken
+sh2pc.exe+1B7AA2C (01F7AA2C) 2 bytes - Ending Type
+sh2pc.exe+1B7AA3A (01f7AA3A) byte - UFO Ending (You have to set ending type to 0 and this ufo memory to 0xFF)
