@@ -259,7 +259,7 @@ sh2pc.exe+19BBF88 (01DBBF88) byte - Number of secret items collected
 sh2pc.exe+19BBF90 (01DBBF90) 2 bytes - Shooting kills
 sh2pc.exe+19BBF92 (01DBBF92) 2 bytes - Melee kills
 sh2pc.exe+19BBFA0 (01DBBFA0) float - Boat stage time
-sh2pc.exe+19BBFA0 (01DBBFA4) float - Boat max speed
+sh2pc.exe+19BBFA4 (01DBBFA4) float - Boat max speed
 sh2pc.exe+19BBFA8 (01DBBFA8) float - Damage points taken
 sh2pc.exe+1B7AA2C (01F7AA2C) 2 bytes - Ending Type
 sh2pc.exe+1B7AA3A (01f7AA3A) byte - UFO Ending (You have to set ending type to 0 and this ufo memory to 0xFF)
