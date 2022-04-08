@@ -237,9 +237,9 @@ sh2pc.exe+1B96120 (01F96120) 4 bytes - Collisions switch
 sh2pc.exe+1B96800 (01F96800) pointer - boat base address pointer
 sh2pc.exe+1BB0C60 (01FB0C60) pointer - maria base address pointer
 sh2pc.exe+1BB1000 (01FB1000) address - james base address
-sh2pc.exe+1BB101C (01FB101C) float - James Z position
-sh2pc.exe+1BB1024 (01FB1024) float - James X position
+sh2pc.exe+1BB101C (01FB101C) float - James x position
 sh2pc.exe+1BB1020 (01FB1020) float - James Y position
+sh2pc.exe+1BB1024 (01FB1024) float - James Z position
 sh2pc.exe+1BB1030 (01FB1030) float - James rotation
 sh2pc.exe+1BB10A8 (01FB10A8) float - James speed
 sh2pc.exe+1BB113C (01FB113C) float - James Health Points
