@@ -66,7 +66,7 @@ s2 | width2 | 0x8 | Always the same as width
 s2 | height2 | 0xA | Always the same as height
 s4 | spriteCount | 0xC |
 s2 | unknown | 0x10 | Saw it as 1 2 3 4 5 6 7 8 9 A B C D E F 10 28
-s2 | textureId2 | 0x12 | Always textureId
+s2 | unknown2 | 0x12 | NOTE(phil): always equal to `unknown`
 s4 | unused | 0x14 |
 s4 | unused | 0x18 | 
 s4 | unused | 0x1C | 
@@ -74,7 +74,7 @@ s4 | unused | 0x1C |
 ## Sprite
 Sprites are weird. They seem to be the leftover from a cut feature. The way it is now, the last sprite is _always_ the actual texture, and the other sprites are leftover that does nothing and has no pixels, but are still read, so they still need to be valid. They can be deleted however, since the game itself never looks for them.
 
-The compression of the pixel data is BC1 if the format is 100 or 103, BC2 if 102 or 104.  
+The compression of the pixel data is BC1 if the format is 100, BC2 if 102, and BC3 if 103 or 104.  
 
 ### Layout
 * `Sprite`
@@ -227,7 +227,7 @@ Type | Name | Offset | Comment
 -|-|-|-
 v4 | boundingBoxA | 0x0 | One corner of a bounding box
 v4 | boundingBoxB | 0x10 | The other corner of the bounding box
-s4 | unused | 0x20 | 
+s4 | offsetToVertexSectionHeader | 0x20 | NOTE(phil): Previously documented as unused
 s4 | offsetToIndices | 0x24 | 
 s4 | indicesLength | 0x28 | 
 s4 | decalCount | 0x2C | 
