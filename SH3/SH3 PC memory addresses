@@ -81,3 +81,8 @@ sh3.exe+6D2CA80 (0712CA80) binary - Weapons spawning 1
 sh3.exe+6D2CA81 (0712CA81) binary - Weapons spawning 2
 sh3.exe+6D2CAAC (0712CAAC) byte - Handgun ammo
 sh3.exe+6D2CAB2 (0712CAB2) byte - Health drinks amount
+sh3.exe+6D2CAB4 (0712CAB4) byte - First-Aid Kit
+sh3.exe+6D2CAB6 (0712CAB6) byte - Ampoules
+sh3.exe+6D2CAAA (0712CAAA) byte - Stun Gun Batteries
+sh3.exe+6D2CAB8 (0712CABB) byte - Beef Jerky
+sh3.exe+6D2CAA2 (0712CAA2) byte - Handgun Magazine
