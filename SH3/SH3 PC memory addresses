@@ -56,6 +56,7 @@ sh3.exe+498570 (00898570) float - Heather model depth stretch
 sh3.exe+4985F8 (008985F8) float - Heather acceleration value
 sh3.exe+4985FC (008985FC) float - Heather acceleration value
 sh3.exe+498650 (00898650) float - Amount of damage taken
+sh3.exe+498660 (00898660) float - Heather's health
 sh3.exe+7B3184 (00BB3184) float - Mouse pointer X position (when pointer is visible on screen)
 sh3.exe+7B3188 (00BB3188) float - Mouse pointer Y position (when pointer is visible on screen)
 sh3.exe+7CBFF8 (00BCBFF8) byte - Main menu selector
@@ -77,12 +78,209 @@ sh3.exe+6D1A70C (0711A70C) float - Camera pan
 sh3.exe+6D1A710 (0711A710) float - Sceen rotation
 sh3.exe+6D2C168 (0712C168) float - Heather attack speed
 sh3.exe+6D2C26C (0712C26C) 4 byte - Current room index
-sh3.exe+6D2CA80 (0712CA80) binary - Weapons spawning 1
-sh3.exe+6D2CA81 (0712CA81) binary - Weapons spawning 2
-sh3.exe+6D2CAAC (0712CAAC) byte - Handgun ammo
-sh3.exe+6D2CAB2 (0712CAB2) byte - Health drinks amount
-sh3.exe+6D2CAB4 (0712CAB4) byte - First-Aid Kit
-sh3.exe+6D2CAB6 (0712CAB6) byte - Ampoules
-sh3.exe+6D2CAAA (0712CAAA) byte - Stun Gun Batteries
-sh3.exe+6D2CAB8 (0712CABB) byte - Beef Jerky
-sh3.exe+6D2CAA2 (0712CAA2) byte - Handgun Magazine
+sh3.exe+6D2CA80 (0712CA80) byte - Weapons inventory sum 1 (Inventory sum = adds item value to byte on pickup)
+                                    0x02 Knife
+                                    0x04 Silver Pipe
+                                    0x08 Maul
+                                    0x10 Katana
+                                    0x20 Beam Saber
+                                    0x40 Flame Thrower
+                                    0x80 Gold Pipe
+sh3.exe+6D2CA81 (0712CA81) byte - Weapons inventory sum 2 
+                                    0x01 Steel Pipe
+                                    0x02 Stun gun
+                                    0x04 Handgun
+                                    0x08 Shotgun
+                                    0x10 SMG
+                                    0x20 Unlimited SMG
+sh3.exe+6D2CA82 (0712CA82) byte - Bulletproof Vest (if >= 0x40)
+sh3.exe+6D2CA83 (0712CA83) byte - item inventory sum 1 
+                                    0x01 Silencer
+                                    0x04 Perfume
+                                    0x08 Talisman
+                                    0x80 Radio
+sh3.exe+6D2CA84 (0712CA84) byte - item inventory sum 2  
+                                    0x04 Flashlight
+                                    0x08 House Key
+                                    0x10 Pendant
+                                    0x20 Tongs
+                                    0x40 Key taken with Tongs
+                                    0x80 Shakespeare Anthology 1
+sh3.exe+6D2CA85 (0712CA85) byte - item inventory sum 3      
+                                    0x01 Shakespeare Anthology 2
+                                    0x02 Shakespeare Anthology 3
+                                    0x04 Shakespeare Anthology 4
+                                    0x08 Shakespeare Anthology 5
+                                    0x10 Bleach
+                                    0x20 Hanger
+                                    0x40 Walnut
+                                    0x80 Cooked Key
+sh3.exe+6D2CA86 (0712CA86) byte - item inventory sum 4 
+                                    0x01 Detergent
+                                    0x02 Moonstone
+                                    0x04 Nutcracker
+                                    0x08 Wine Bottle
+                                    0x10 Oil-filled Bottle
+                                    0x20 Dryer
+                                    0x40 Screwdriver
+                                    0x80 Rope
+sh3.exe+6D2CA87 (0712CA87) byte - item inventory sum 5 
+                                    0x01 Jack
+                                    0x02 Oxydol
+                                    0x04 Pork liver
+                                    0x08 Matchbook
+                                    0x10 Silver coin
+                                    0x20 Life Insurance Key
+                                    0x40 Dad's notebook
+                                    0x80 Nail Polish Remover
+sh3.exe+6D2CA88 (0712CA88) byte - item inventory sum 6     
+                                    0x01 Stairwell Key
+                                    0x02 Instant Camera
+                                    0x04 Cremated Key
+                                    0x08 Plastic Bag
+                                    0x10 Plastic Bag (with blood)  
+                                    0x20 Roller coaster Key
+                                    0x40 Red Shoe
+                                    0x80 Chain      
+sh3.exe+6D2CA89 (0712CA89) byte - item inventory sum 7          
+                                    0x01 Douglas's notebook                              
+                                    0x02 Doll head
+                                    0x04 "Eye of Night" Tarot card
+                                    0x08 "Moon" Tarot card
+                                    0x10 Book: Otherworld Laws
+                                    0x20 "Hanged Man" Tarot card
+                                    0x40 Brass Key
+                                    0x80 Cassette Tape
+sh3.exe+6D2CA8A (0712CA8A) byte - item inventory sum 8                                      
+                                    0x01 "High Priestess" Tarot card
+                                    0x02 "Fool" Tarot card
+                                    0x04 Transform Costume
+                                    0x08 "13ème RUE" shirt
+                                    0x10 "EGM" shirt
+                                    0x20 "Game Informer" shirt
+                                    0x40 "GamePro" shirt
+                                    0x80 "GAMEREACTOR" shirt
+sh3.exe+6D2CA8B (0712CA8B) byte - item inventory sum 9       
+                                    0x01 "Gamespy.com" shirt
+                                    0x02 "GMR" shirt
+                                    0x04 "GN" shirt
+                                    0x08 "IGN.COM" shirt
+                                    0x10 "OPM" shirt
+                                    0x20 "Play" shirt
+                                    0x40 "PS2RO" shirt
+                                    0x80 "PSM" shirt
+sh3.exe+6D2CA8C (0712CA8C) byte - item inventory sum 10                                                                        
+                                    0x01 "Golden Rooster" shirt
+                                    0x02 "Royal Flush" shirt
+                                    0x04 "Blocked head" shirt
+                                    0x08 "The Light" shirt
+                                    0x10 "God of Thunder" shirt
+                                    0x20 "Killer Rabbit" shirt
+                                    0x40 "Transience" shirt
+                                    0x80 "Onsen" shirt
+sh3.exe+6D2CA8D (0712CA8D) byte - item inventory sum 11                                     
+                                    0x01 "Don't Touch" shirt
+                                    0x02 "Heather" shirt
+                                    0x04 "zipper" shirt
+                                    0x08 "OPS2" shirt
+sh3.exe+6D2CAA0 (0712CAA0) 2 bytes - Inventory array
+                                    [0]  - Stun Gun Magazine
+                                    [1]  - Handgun Magazine
+                                    [2]  - Shotgun Magazine
+                                    [3]  - Submachine Gun Magazine
+                                    [4]  - Unlimited Submachine Gun Magazine
+                                    [5]  - Stun Gun Batteries
+                                    [6]  - Handgun Ammo
+                                    [7]  - Shotgun Shells
+                                    [8]  - SMG Bullets
+                                    [9]  - Health Drinks
+                                    [10] - First-Aid Kits
+                                    [11] - Ampoules
+                                    [12] - Beef Jerky
+sh3.exe+06D5D113 (0715D113) byte - memos sum 1
+                                    0x08 Bookstore Memo
+                                    0x10 - Bookstore Memo
+                                    0x20 - Bookstore Memo
+                                    0x40 - Bookstore Memo
+                                    0x80 Ticket Machine Newspaper
+sh3.exe+06D5D114 (0715D114) byte - memos sum 2
+                                    0x01 Occult Magazine
+                                    0x02 About the monster in the water
+                                    0x04 Photo on chair
+                                    0x08 Science textbook
+                                    0x10 - Science textbook
+                                    0x20 Picture in the gallery
+                                    0x40 "Thus one's life turns to riches"
+                                    0x80 Fairy Tale, Beginning 
+sh3.exe+06D5D115 (0715D115) byte - memos sum 3
+                                    0x01 Fairy Tale, Continued
+                                    0x02 Fairy Tale, Last Part
+                                    0x04 About Leonard and Stanley
+                                    0x08 2f east hall memo
+                                    0x10 - 2f east hall memo
+                                    0x20 - 2f east hall memo
+                                    0x40 Corpse tattoo
+                                    0x80 Memo about the corpse
+sh3.exe+06D5D116 (0715D116) byte - memos sum 4
+                                    0x01 Photo - backside of shelf
+                                    0x02 Stanley's Diary (Visiting Room)
+                                    0x04 Stanley's Diary (Room C4)
+                                    0x08 Stanley's Diary (East Hall)
+                                    0x10 Stanley's Diary (Room M4)
+                                    0x20 Stanley's Diary (S.T. Room)
+                                    0x40 Stanley's Diary (Storeroom)
+                                    0x80 Stanley's Diary (Staircase)
+sh3.exe+06D5D117 (0715D117) byte - memos sum 5
+                                    0x01 Stanley's Diary (Room S7)
+                                    0x02 Note to the Doctor
+                                    0x04 Day Room notebook
+                                    0x08 Book: Lost Memories
+                                    0x10 Silhouette Photo
+                                    0x20 Dad's Memo
+                                    0x40 Carousel Memo
+                                    0x80 Myth - "1. Origin"
+sh3.exe+06D5D118 (0715D118) byte - memos sum 6
+                                    0x01 Myth - "2. Birth"
+                                    0x02 Myth - "3. Salvation"
+                                    0x04 Myth - "4. Creation"
+                                    0x08 Myth - "5. Promise"
+                                    0x10 Myth - "6. Faith"
+                                    0x20 St. Alessa Portrait
+                                    0x40 St. Nicholas Portrait
+                                    0x80 St. Jennifer Portrait
+sh3.exe+06D5D119 (0715D119) byte - memos sum 7
+                                    0x01 About syncretic religions
+                                    0x02 About Tarot
+                                    0x04 Dad's diary
+                                    0x08 About the cult's symbol
+                                    0x10 Believers' complaints
+                                    0x20 School desk scribbles
+                                    0x40 K. Gordon's Notebook
+                                    0x80 Claudia's Diary
+sh3.exe+06D5D11A (0715D11A) byte - memos sum 8
+                                    0x01 Birthday card
+                                    0x02 "Aglaophotis"
+                                    0x04 Sketchbook
+                                    0x08 - Sketchbook
+                                    0x10 - Sketchbook
+                                    0x20 "Hope House" article
+                                    0x40 Silent Hill Tourist Information
+                                    0x80 Alessa memo
+sh3.exe+06D5D11B (0715D11B) byte - memos sum 9
+                                    0x01 Dad's memo 2
+                                    0x02 Prayer to God
+                                    0x04 Church Door
+                                    0x08 The song of the sparrow
+                                    0x10 The song of the owl
+                                    0x20 the song of the thrush
+                                    0x40 The song of cock robin
+                                    0x80 The song of the lark
+sh3.exe+06D5D11C (0715D11C) byte - map sum 1 
+                                    0x80 Mall map                               
+sh3.exe+06D5D11D (0715D11D) byte - map sum 2 (starts from 0x80)
+                                    0x01 Subway
+                                    0x02 Sewer 
+                                    0x04 Hilltop Center
+                                    0x08 Silent Hill
+                                    0x10 Brookhaven Hospital
+                                    0x20 Church map
