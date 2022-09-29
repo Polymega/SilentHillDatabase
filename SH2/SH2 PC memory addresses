@@ -135,6 +135,28 @@ sh2pc.exe+6C7228 (00AC7228) byte - Room index
 sh2pc.exe+197F654 (01D7F654) float - Boat direction
 sh2pc.exe+197F660 (01D7F660) float - Boat speed
 sh2pc.exe+19835E4 (01D835E4) float - Prison elevator speed
+sh2pc.exe+19B8408 (01DB8408) byte - Turn Left Key Binding (Key bindings use DInput constants)
+sh2pc.exe+19B8410 (01DB8410) byte - Turn Right Key Binding
+sh2pc.exe+19B8418 (01DB8418) byte - Move Forward Key Binding
+sh2pc.exe+19B8420 (01DB8420) byte - Move Backwards Key Binding
+sh2pc.exe+19B8428 (01DB8428) byte - Strafe Left Key Binding
+sh2pc.exe+19B8430 (01DB8430) byte - Strafe Right Key Binding
+sh2pc.exe+19B8438 (01DB8438) byte - Action/Confirm Key Binding
+sh2pc.exe+19B8440 (01DB8440) byte - Cancel Key Binding
+sh2pc.exe+19B8448 (01DB8448) byte - Skip/Pause Key Binding
+sh2pc.exe+19B8450 (01DB8450) byte - Run/Guard Key Binding
+sh2pc.exe+19B8458 (01DB8458) byte - Search View Key Binding
+sh2pc.exe+19B8460 (01DB8460) byte - Inventory Key Binding
+sh2pc.exe+19B8468 (01DB8468) byte - Light On/Off Key Binding
+sh2pc.exe+19B8470 (01DB8470) byte - Map Key Binding
+sh2pc.exe+19B8478 (01DB8478) byte - Use Health Key Binding
+sh2pc.exe+19B8480 (01DB8480) byte - Ready Weapon Key Binding
+sh2pc.exe+19B8488 (01DB8488) byte - Next Weapon Key Binding
+sh2pc.exe+19B8490 (01DB8490) byte - Previous Weapon Key Binding
+sh2pc.exe+19B8498 (01DB8498) byte - Reload Key Binding
+sh2pc.exe+19B84A0 (01DB84A0) byte - Unequip Weapon Key Binding
+sh2pc.exe+19B84A8 (01DB84A8) byte - Quick Save Key Binding
+sh2pc.exe+19B84B0 (01DB84B0) byte - Quick Load Key Binding
 sh2pc.exe+19BBFF7 (01DBBFF7) byte - Options Screen Position X 
 sh2pc.exe+19BBFF8 (01DBBFF8) byte - Options Screen Position Y
 sh2pc.exe+19BBFF9 (01DBBFF9) byte - Options Vibration
