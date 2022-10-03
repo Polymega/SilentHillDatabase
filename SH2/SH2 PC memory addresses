@@ -247,6 +247,7 @@ sh2pc.exe+1B810F0 (01F810F0) float - Camera Free For Debug X position
 sh2pc.exe+1B810F4 (01F810F4) float - Camera Free For Debug Y position
 sh2pc.exe+1B810F8 (01F810F8) float - Camera Free For Debug Z position
 sh2pc.exe+1B811E0 (01F811E0) byte - Camera tracking switch
+sh2pc.exe+1B811E9 (01F811E9) byte - Search View Flag (changes to a value of 6 whenever Search View is activated, regardless if Search View is set to "Press" or "Toggle")
 sh2pc.exe+1B81210 (01F81210) 4 bytes - Prison elevator shake effect switch
 sh2pc.exe+1B812E0 (01F812E0) float - Camera tilt
 sh2pc.exe+1B812E4 (01F812E4) float - Camera pan
