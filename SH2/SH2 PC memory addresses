@@ -2,6 +2,7 @@ For North American executable (v1.0).
 
 sh2pc.exe+29F33C (0069F33C) float - Max walk speed (it affects monsters too i guess)
 sh2pc.exe+2A793C (006A793C) float - Fog texture UV repeat
+sh2pc.exe+2BC1F4 (006BC1F4) float - Alternate Hotel Flooded Elevator, Water Flood (Rise) Speed
 sh2pc.exe+2C3254 (006C3254) float - Flashlight inner glow size
 sh2pc.exe+2EF494 (006EF494) float - Max running speed
 sh2pc.exe+39B830 (0079B830) byte - Save function being active/inactive
@@ -11,6 +12,18 @@ sh2pc.exe+490478 (00890478) float - Hospital roof cutscene trigger X
 sh2pc.exe+490480 (00890480) float - Hospital roof cutscene trigger Y
 sh2pc.exe+490484 (00890484) float - Hospital roof cutscene trigger Z
 sh2pc.exe+492AFC (00892AFC) float - Blood pool size
+sh2pc.exe+49C0E0 (0089C0E0) float - Blue Creek Apartment RPT Boss Fight, Water Anchor point X/Z
+sh2pc.exe+49C0E4 (0089C0E4) float - Blue Creek Apartment RPT Boss Fight, Water Anchor point Y
+sh2pc.exe+49C0E8 (0089C0E8) float - Blue Creek Apartment RPT Boss Fight, Water Anchor point X/Z
+sh2pc.exe+49C0FC (0089C0FC) float - Blue Creek Apartment RPT Boss Fight, Water Amplitude?
+sh2pc.exe+49C1A4 (0089C1A4) float - Blue Creek Apartment RPT Boss Fight, Water Drainage Speed
+sh2pc.exe+49C4D0 (0089C4D0) float - Alternate Hotel Flooded Elevator, Water Anchor point X/Z
+sh2pc.exe+49C4D0 (0089C4D4) float - Alternate Hotel Flooded Elevator, Water Anchor point Y
+sh2pc.exe+49C4D8 (0089C4D8) float - Alternate Hotel Flooded Elevator, Water Anchor point X/Z
+sh2pc.exe+49C4EC (0089C4EC) float - Alternate Hotel Flooded Elevator, Water Amplitude?
+sh2pc.exe+49C4F0 (0089C4F0) 4 byte - Alternate Hotel Flooded Elevator, Water X/Z segments to be rendered
+sh2pc.exe+49C4F4 (0089C4F4) 4 byte - Alternate Hotel Flooded Elevator, Water X/Z segments to be rendered
+sh2pc.exe+49C4FC (0089C4FC) 4 byte - Alternate Hotel Flooded Elevator, Water Trigger
 sh2pc.exe+49FF82 (0089FF82) byte - Flashlight render toggle (the light touching/affecting the environment)
 sh2pc.exe+49FFC0 (0089FFC0) float - Location textures brightness preset
 sh2pc.exe+4A1ED8 (008A1ED8) dword[2428] - sound id list
