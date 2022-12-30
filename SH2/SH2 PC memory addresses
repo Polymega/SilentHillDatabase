@@ -203,6 +203,7 @@ sh2pc.exe+1B7A6AD (01F7A6AD) byte - Fog color (green)
 sh2pc.exe+1B7A6AE (01F7A6AE) byte - Fog color (blue)
 sh2pc.exe+1B7A6AF (01F7A6AF) byte - Fog brightness
 sh2pc.exe+1B7A6B8 (01F7A6B8) 4 bytes - Fog coutdown to change direction
+sh2pc.exe+1B7A7B8 (01F7A7B8) float - Cutscene counter/timer value
 sh2pc.exe+1B7A7C4 (01F7A7C4) byte - Cutscene index
 sh2pc.exe+1B7A7E0 (01F7A7E0) uint[3] - Inventory items array
                              [0] - mostly involves weapons and some prologue mission items; set 0000FFFF to place all weapons in inventory; set FFFF0000 to place all prologue mission items; set FFFFFFFF to place both of them
@@ -223,7 +224,7 @@ sh2pc.exe+1B7A7EC (01F7A7EC) short[13] - Item ammo array
                              [11] - Revolver bullet
                              [12] - Hyper spray
 sh2pc.exe+1B7A80C (01F7A80C) float  - Ampoule stamina refill timer 
-sh2pc.exe+1B7A950 (01f7a950) pointer - stage
+sh2pc.exe+1B7A950 (01F7A950) pointer - stage
 stage->0x24 = int - Stage ID
 sh2pc.exe+1B7A980 (01F7A980) int - radio (0 = off, 1 = on)
 sh2pc.exe+1B7AA10 (01F7AA10) uint - Set Briefcase Puzzle
