@@ -76,6 +76,7 @@ sh2pc.exe+53C49C (0093C49C) byte - Title screen being active marker
 sh2pc.exe+5408B8 (009408B8) 4 bytes - Actions trigger (32 = map, 128 = escape, 1 = walk forward, 2 = walk backwards etc)
 sh2pc.exe+541358 (00941358) 4 bytes - Mouse pointer horizontal position
 sh2pc.exe+54135C (0094135C) 4 bytes - Mouse pointer vertical position
+sh2pc.exe+541365 (00941365) byte - Renders the mouse pointer (0 = invisible, 1 = visible)
 sh2pc.exe+541710 (00941710) byte - Options High Res. Textures switch
 sh2pc.exe+541711 (00941711) byte - Options Resolution switch
 sh2pc.exe+541712 (00941712) byte - Options Shadows switch
