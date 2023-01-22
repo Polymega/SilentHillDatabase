@@ -1,0 +1,117 @@
+For Silent Hill (USA) SLUS-00707.
+
+0xBA0BD byte - damage taken, start is 0x40, rises to 0xFF upon taking damage, on overflow decrements status
+0xBA0BE 2 byte - status:
+	0x06 Green
+	0x05 Green-Yellow
+	0x04 Yellow
+	0x03 Orange
+	0x02 Orange - Red
+	0x01 Red
+
+Inventory Slots:
+0xBCA34 - 0xBCAD0 4 bytes array
+slot[0] byte - ItemID
+slot[1] byte - Quantity
+slot[2] byte - OptionsAvailable
+slot[3] byte - SlotNumber
+
+	Item ID:
+	0x20 Health drink
+	0x21 First aid kit
+	0x22 Ampoule
+	----
+	0x40 Lobby key
+	0x41 House key
+	0x42 Key of "Lion"
+	0x43 Key of "Woodman"
+	0x44 Key of "Scarecrow"
+	0x45 Library reserve key
+	0x46 Classroom key
+	0x47 K. Gordon key
+	0x48 Drawbridge key
+	0x49 Basement key
+	0x4A Basement storeroom key
+	0x4B Examination room key
+	0x4C Antique shop key
+	0x4D Sewer key
+	0x4E Key of "Ophiel"
+	0x4F Key of "Hagith"
+	0x50 Key of "Phaleg"
+	0x51 Key of "Bethor"
+	0x52 Key of "Aratron"
+	0x53 A note "To school"
+	0x54 A note "Doghouse"
+	0x55 Picture card
+	----
+	0x57 Sewer exit key
+	0x58 Channeling stone
+	----
+	0x60 Chemical
+	0x61 Gold medallion
+	0x62 Silver medallion
+	0x63 Rubber ball
+	0x64 "Flauros"
+	0x65 Plastic bottle
+	0x66 Unknown liquid
+	0x67 Plate of "Turtle"
+	0x68 Plate of "Hatter"
+	0x69 Plate of "Cat"
+	0x6A Plate of "Queen"
+	0x6B Blood pack
+	0x6C Disinfecting alcohol
+	0x6D Lighter
+	0x6E Video tape
+	----
+	0x70 Kaufmann key
+	0x71 Receipt
+	0x72 Safe key
+	0x73 Magnet
+	0x74 Motorcycle key
+	0x75 Bird cage key
+	0x76 Pliers
+	0x77 Screwdriver
+	0x78 Camera
+	0x79 Ring of contract
+	0x80 Kitchen knife
+	0x81 Steel pipe
+	0x82 Rock drill
+	----
+	0x84 Hammer
+	0x85 Chainsaw
+	0x86 Katana
+	0x87 Axe
+	----
+	0xA0 Handgun
+	0xA1 Hunting rifle
+	0xA2 Shotgun
+	0xA3 Hyper Blaster
+	----
+	0xC0 Handgun bullets
+	0xC1 Rifle shells
+	0xC2 Shotgun shells
+	----
+	0xE0 Flashlight
+	0xE1 Pocket radio
+	0xE2 Gasoline tank
+
+	Options Available:
+	0x01 Use
+	0x02 Equip
+	0x03 Unequip
+	0x04 Equip - Reload
+	0x05 Unequip - Reload
+	0x06 On - Off
+	0x07 Reload
+	0x08 Look
+	0x09 Use - Look
+
+0xBCADA 2 byte - Number of saves
+0xBCB98 2 byte - Has a map flag, 0x02 for true, 0x00 for false
+0xBCC08 2 byte - Map markings 1, 0xFFFF for all
+0xBCC0A 2 byte - Map markings 2, 0xFFFF for all
+0xBCC0C 2 byte - Map markings 3, 0xFFFF for all
+0xBCC0E 2 byte - Map markings 4, 0xFFFF for all
+0xBCC10 2 byte - Map markings 5, 0xFFFF for all
+0xBCC84 2 byte - IGT LSByte, its MSBit counts up by 1 each second
+0xBCC86 2 byte - IGT MSByte, increases by 1 on LSB overflow
