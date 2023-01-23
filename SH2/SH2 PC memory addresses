@@ -123,6 +123,7 @@ sh2pc.exe+54D5BA (0094D5BA) byte - Title screen color (blue)
 sh2pc.exe+54D5F9 (0094D5F9) byte - Title screen elements horizontal position 
 sh2pc.exe+54D5FB (0094D5FB) byte - Title screen elements vertical position
 sh2pc.exe+54D860 (0094D860) byte - For Memos screen - Unique ID of currently highlighted memo within memos list
+sh2pc.exe+54D8AC (0094D8AC) 4 byte - For Memos screen - Scrolling level of the list
 sh2pc.exe+54D8B0 (0094D8B0) byte - For Memos screen - Chronological number of currently highlighted memo within memos list. This will always be in numerical order, starting with 0, independent of a memo's unique ID (0094D860)
 sh2pc.exe+54DFD4 (0094DFD4) float - James X coordinate in cutscenes
 sh2pc.exe+54DFD8 (0094DFD8) float - James Y coordinate in cutscenes
