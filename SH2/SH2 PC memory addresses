@@ -275,8 +275,9 @@ sh2pc.exe+1B8DAE8 (01F8DAE8) float - Cylinder Camera For Debug zoom
 sh2pc.exe+1B8DAEC (01F8DAEC) float - Cylinder Camera For Debug vertical orbit
 sh2pc.exe+1B8DB60 (01F8DB60) 4 bytes - Cylinder Camera For Debug / Free For Debug switch
 sh2pc.exe+1B96120 (01F96120) 4 bytes - Collisions switch
-sh2pc.exe+1B96800 (01F96800) pointer - boat base address pointer
-sh2pc.exe+1BB0C60 (01FB0C60) pointer - maria base address pointer
+sh2pc.exe+1B96800 (01F96800) pointer - Boat base address pointer
+sh2pc.exe+1BB0C60 (01FB0C60) pointer - Maria base address pointer
+sh2pc.exe+1BB0F4B (01FB0F4B) byte - Disables all in-game interactions when enabled (1). This is triggered whenever Maria dies to prevent James from interacting with doors/saves/etc during her death animation.
 sh2pc.exe+1BB1000 (01FB1000) address - james base address
 sh2pc.exe+1BB101C (01FB101C) float - James x position
 sh2pc.exe+1BB1020 (01FB1020) float - James Y position
