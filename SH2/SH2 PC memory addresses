@@ -47,21 +47,25 @@ sh2pc.exe+4CA478 (008CA478) String[4] - Suitcase Photo Combination Letters
 sh2pc.exe+4CA480 (008CA480) String[4] - Suitcase Photo Combination Letters
 sh2pc.exe+4F0341 (008F0341) byte - Flashlight light spread switch
 sh2pc.exe+532174 (00932174) byte - Main menu events index
+                                    7 = Main Menu
+                                    13 = In-game
+                                    14 = Options Menu (from Main Menu) & FMVs (from Movie Menu)
+                                    17 = Load Screen
 sh2pc.exe+532178 (00932178) byte - Gameplay events index
-                                    0 = load screen
-                                    1-4 = loading process (values are also used for other events)
-                                    2 = main menu
-                                    4 = in-game
-                                    5 = map
-                                    6 = inventory
-                                    7 = options menu & FMVs (from Movie Menu)
-                                    8 = memo list
-                                    9 = save screen
-                                    10/11 = game result
-                                    12 = "COMING SOON!" splash screen
-                                    13 = game over screen
-                                    15 = FMVs
-                                    16 = PC pause menu
+                                    0 = Load Screen
+                                    1-4 = Loading Process (values are also used for other events)
+                                    2 = Main Menu
+                                    4 = In-game
+                                    5 = Map
+                                    6 = Inventory
+                                    7 = Options Menu & FMVs (from Movie Menu)
+                                    8 = Memo List Screen
+                                    9 = Save Screen
+                                    10/11 = Game Result
+                                    12 = "COMING SOON!" Splash Screen
+                                    13 = Game Over Screen
+                                    15 = FMVs (from in-game)
+                                    16 = Pause Menu
 sh2pc.exe+53268C (0093268C) float - Fade-in timer
 sh2pc.exe+532694 (00932694) 4 byte - Loading screen trigger
 sh2pc.exe+532D48 (00932D48) float - speedOfTotalTimer
