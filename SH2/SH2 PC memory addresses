@@ -231,9 +231,11 @@ sh2pc.exe+1B7A7EC (01F7A7EC) short[13] - Item ammo array
                              [10] - Revolver
                              [11] - Revolver bullet
                              [12] - Hyper spray
-sh2pc.exe+1B7A80C (01F7A80C) float  - Ampoule stamina refill timer 
+sh2pc.exe+1B7A80C (01F7A80C) float - Ampoule stamina refill timer 
+sh2pc.exe+1B7A830 (01F7A830) float - Puzzle mouse cursor vertical position (-180, 180)
 sh2pc.exe+1B7A950 (01F7A950) pointer - stage
 stage->0x24 = int - Stage ID
+sh2pc.exe+1B7A960 (01F7A960) float - Puzzle mouse cursor horizontal position (-256, 256)
 sh2pc.exe+1B7A980 (01F7A980) int - radio (0 = off, 1 = on)
 sh2pc.exe+1B7AA10 (01F7AA10) uint - Set Briefcase Puzzle
 sh2pc.exe+1B7AE60 (01F7AE60) byte - Puzzle Wallet code 1st number
