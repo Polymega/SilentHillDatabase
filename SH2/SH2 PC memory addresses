@@ -294,6 +294,7 @@ sh2pc.exe+1BB113C (01FB113C) float - James Health Points
 sh2pc.exe+1BB1238 (01FB1238) 2 bytes - James animation timer
 sh2pc.exe+1BB12CC (01FB12CC) address - maria base address (Also shares same address with boat)
 sh2pc.exe+1BB12E8 (01FB12E8) float - Maria X position
+sh2pc.exe+1BB12EC (01FB12EC) float - Maria Y position
 sh2pc.exe+1BB12F0 (01FB12F0) float - Maria Z position
 sh2pc.exe+1BB2C14 (01FB2C14) float - RPT X position on hospital roof
 sh2pc.exe+1BB2C18 (01FB2C18) float - RPT Y position on hospital roof
