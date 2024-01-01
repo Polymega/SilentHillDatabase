@@ -211,7 +211,7 @@ s4 | decalCount | 0x0 |
 s4[] | decalOffsets | 0x4 | 
 
 ## Decal
-Decals are similar to `MapMesh`, but they are simpler, and generally used for simple transparent things like fake shadows.
+Decals are similar to `MapMesh`, but they are simpler, and generally used for simple transparent things like fake shadows. It is currently unconfirmed, but there might be a vertex limit for inserting custom decal mesh groups into a map file. It appears that if a mesh has over ~85 vertices and is classified as a decal, the mesh will not render in the game. More reserach should be done to confirm this limitation. Decal mesh groups that already exist in the original map files don't appear to be affected by such limitations.
 
 ### Layout
 * `Decal`
