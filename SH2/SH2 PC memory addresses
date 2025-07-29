@@ -296,6 +296,9 @@ sh2pc.exe+1BB12CC (01FB12CC) address - maria base address (Also shares same addr
 sh2pc.exe+1BB12E8 (01FB12E8) float - Maria X position
 sh2pc.exe+1BB12EC (01FB12EC) float - Maria Y position
 sh2pc.exe+1BB12F0 (01FB12F0) float - Maria Z position
+sh2pc.exe+1BB15B4 (01FB15B4) float - NPC Maria X position
+sh2pc.exe+1BB15B4 (01FB15B8) float - NPC Maria Y position
+sh2pc.exe+1BB15B4 (01FB15BC) float - NPC Maria Z position
 sh2pc.exe+1BB2C14 (01FB2C14) float - RPT X position on hospital roof
 sh2pc.exe+1BB2C18 (01FB2C18) float - RPT Y position on hospital roof
 sh2pc.exe+1BB2C1C (01FB2C1C) float - RPT Z position on hospital roof
